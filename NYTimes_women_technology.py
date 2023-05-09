@@ -7,8 +7,8 @@ base_url = "https://api.nytimes.com/svc/search/v2/articlesearch.json"
 payload = {
     'api-key': ' ',
     'q': 'women AND technology',
-    'begin_date': '20220228',
-    'end_date': '20220328',
+    'begin_date': '20220328',
+    'end_date': '20220428',
     'page':1
 }
 
