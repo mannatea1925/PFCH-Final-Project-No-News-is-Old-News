@@ -3,7 +3,7 @@ import json
 
 base_url = "https://api.nytimes.com/svc/search/v2/articlesearch.json"
 payload = {
-    'api-key': 'Q8vNzqMpSMsfykSMtm6iRYvTjVzDOaIZ',
+    'api-key': ' ',
     'begin_date': '20221229',
     'end_date': '20221229'
 }
