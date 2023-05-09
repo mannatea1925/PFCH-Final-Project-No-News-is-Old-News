@@ -27,7 +27,7 @@ for page in range(1,data['response']['pages'] + 1):
 
     # do the get request for each page
     payload = {
-        'api-key': 'b094f174-ad81-4262-b699-dc0789be8bc7',
+        'api-key': ' ',
         'q': 'women AND technology',
         'from-date' : '2022-03-28',
         'to-date' : '2023-04-28',
