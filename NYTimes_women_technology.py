@@ -40,8 +40,8 @@ for page in range(1,total_pages +1):
     payload = {
         'api-key': ' ',
         'q': 'women AND technology',
-        'begin_date': '20220228',
-        'end_date': '20220328',
+        'begin_date': '20220328',
+        'end_date': '20220428',
         'page':page
     }
     r = requests.get (base_url, params=payload)
