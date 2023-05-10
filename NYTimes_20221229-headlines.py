@@ -54,5 +54,5 @@ for page in range(1,total_pages +1):
         if 'headline' in item:
             print (item['headline'])
 
-with open ('911_headlines.json', 'w') as out:
+with open ('20221229-headlines.json', 'w') as out:
     json.dump(save_data, out, indent = 2)
